@@ -1,0 +1,25 @@
+.nav-up{
+    background-color: rgb(45, 134, 250);
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    div{
+    }
+}
+
+nav{
+    height: 80px;
+    .logo{
+        height: 80px;
+        img{
+            width: 100%;
+        }
+    }
+    ul{
+        list-style: none;
+        li{
+            text-decoration: none;
+        }
+    }
+}

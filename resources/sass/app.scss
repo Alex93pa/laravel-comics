@@ -1,3 +1,10 @@
-@import 'partial/header';
+@import 'partials/header';
 @import "partials/main";
 @import "partials/footer";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
