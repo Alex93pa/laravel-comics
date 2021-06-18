@@ -6,6 +6,7 @@
             color: white;
             justify-content: flex-end;
             display: flex;
+            align-items: center;
             height: 30px;
             div{
                 margin-left: 20px;
@@ -28,7 +29,10 @@ nav{
     }
     ul{
         list-style: none;
+        font-size: 12px;
+        
         li{
+            margin: 5px;
             display: inline-block;
             a{
                 color: black;
