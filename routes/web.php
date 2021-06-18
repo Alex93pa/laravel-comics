@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/cartoon', function () {
+    $datiPasta = config("pasta");
+
+    $infoCartoons = [
+        "productsList" => $datiPasta
+    ];
+
+    return view("products", $infoCartoons );
+})->name("pagina-prodotti");
