@@ -30,20 +30,31 @@ nav{
     
 }
 
+.nav-list{
+    ul{
+        li{
+            margin: 5px;
+            display: inline-block;
+            a{
+                &:hover{
+                    color:$primary_color;
+                }
+            }
+        }
+    }
+}
+
 .hero{
     background-image: url('/images/jumbotron.jpg');
     height: 300px;
     background-size: cover;
-}
-
-ul{
-    li{
-        margin: 5px;
-        display: inline-block;
-        a{
-            &:hover{
-                color:$primary_color;
-            }
-        }
-    }
+    .current{
+        background-color: $primary_color;
+        color: white;
+        width: 200px;
+        padding: 10px;
+        position: relative;
+        top: 278px;
+        left: 10%;
+    } 
 }

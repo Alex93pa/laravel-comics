@@ -62,58 +62,123 @@ nav .logo img {
   height: 100%;
 }
 
+.nav-list ul li {
+  margin: 5px;
+  display: inline-block;
+}
+
+.nav-list ul li a:hover {
+  color: #2d86fa;
+}
+
 .hero {
   background-image: url("/images/jumbotron.jpg");
   height: 300px;
   background-size: cover;
 }
 
-ul li {
-  margin: 5px;
-  display: inline-block;
-}
-
-ul li a:hover {
-  color: #2d86fa;
-}
-
-.total-container .current {
+.hero .current {
   background-color: #2d86fa;
   color: white;
   width: 200px;
   padding: 10px;
-  margin-top: -20px;
+  position: relative;
+  top: 278px;
+  left: 10%;
 }
 
-.total-container .card-container {
+main {
+  background-color: black;
+}
+
+main .total-container .card-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.total-container .card-container .card {
-  flex-basis: calc(100% / 6);
+main .total-container .card-container .card {
+  flex-basis: calc((100% / 6) - 20px);
+  margin: 10px;
+  margin-top: 40px;
 }
 
-.total-container .card-container .card img {
-  width: 100%;
+main .total-container .card-container .card a {
+  text-decoration: none;
+}
+
+main .total-container .card-container .card a img {
+  width: 150px;
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
+main .total-container .card-container .card a h4 {
+  color: white;
+}
+
+main .total-container .card-container .card a h4:hover {
+  color: #2d86fa;
+}
+
+.main-footer {
+  background-color: #2d86fa;
+  height: 100px;
+}
+
+.main-footer .total-container .info {
+  height: 100px;
+  padding: 20px;
+}
+
+.main-footer .total-container .info h5 {
+  color: white;
+  align-self: center;
+  margin-left: 10px;
+}
+
 footer {
+  height: 480px;
   background-image: url("/images/footer-bg.jpg");
 }
 
-footer .total-container .footer-list h4 {
+footer .total-container {
+  display: flex;
+}
+
+footer .total-container .footer-space {
+  width: 50%;
+}
+
+footer .total-container .footer-space .left-block {
   color: white;
 }
 
-footer .total-container .footer-list ul li {
+footer .total-container .footer-space .left-block .footer-list {
+  width: 32%;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+footer .total-container .footer-space .left-block .footer-list h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+footer .total-container .footer-space .left-block .footer-list ul li a {
   color: white;
 }
 
-footer .total-container .footer-list ul li a {
-  color: white;
+footer .total-container .footer-space .left-block .footer-list ul li a:hover {
+  color: #2d86fa;
+}
+
+footer .total-container .footer-space img {
+  width: 100%;
+}
+
+footer .total-container .right {
+  font-size: 12px;
+  margin-top: 40px;
 }
 

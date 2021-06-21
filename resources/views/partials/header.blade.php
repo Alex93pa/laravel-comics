@@ -44,7 +44,11 @@
 
             <input type="text" name="" id="" placeholder="search">
         </nav>
+    </div>
 
-        <div class="hero"></div>
+        <div class="hero">
+            <div class="current">
+            CURRENT SERIES
+        </div>
     </div>
 </header>

@@ -1,18 +1,39 @@
 footer{
+    height: 480px;
     background-image: url('/images/footer-bg.jpg');
     .total-container{
-        .footer-list{
-            h4{
+        display: flex;
+        .footer-space{
+            width: 50%;
+            .left-block{
                 color: white;
-            }
-            ul{
-                li{
-                    color: white;
-                    a{
-                        color: white;
+                .footer-list{
+                    width: 32%;
+                    display: inline-block;
+                    vertical-align: text-top;
+                    h4{
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                    }
+                    ul{
+                        li{
+                            a{
+                                color: white;
+                                &:hover{
+                                    color: $primary_color;
+                                }
+                            }
+                        }
                     }
                 }
             }
+            img{
+                width: 100%;
+            }
+        }
+        .right{
+            font-size: 12px;
+            margin-top: 40px;
         }
     }
 }
