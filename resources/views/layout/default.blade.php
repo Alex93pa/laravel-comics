@@ -16,10 +16,10 @@
 <body>
   @include('partials.header')
 
-  @include('partials.main')
-  {{-- <div class="container">
+
+  <div class="container">
     @yield('content')
-  </div> --}}
+  </div>
 
   @include('partials.footer')
 </body>

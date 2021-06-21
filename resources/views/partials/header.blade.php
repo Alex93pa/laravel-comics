@@ -13,6 +13,15 @@
         </div>
     </div>
 
+    @php
+    
+        function setLinkClass($pageName) {
+            $routeName = Request::route()->getName();
+            return $routeName == $pageName ? 'active' : '';
+        }
+
+    @endphp
+
     <div class="total-container">
         <nav>
             <div class="logo">
@@ -21,7 +30,7 @@
             <div class="nav-list">
                 <ul>
                     <li><a href="">CHARACTERS</a></li>
-                    <li><a href="">COMICS</a></li>
+                    <li><a class="nav-link {{ setLinkClass('pagina-comics') }}" href="{{ route('comics') }}">COMICS</a></li>
                     <li><a href="">MOVIES</a></li>
                     <li><a href="">TV</a></li>
                     <li><a href="">GAMES</a></li>

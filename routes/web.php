@@ -18,12 +18,12 @@ Route::get('/', function () {
 });
 
 
-Route::get('/cartoon', function () {
-    $datiPasta = config("pasta");
+Route::get('/comics', function () {
+    $comicsData = config("comics");
 
-    $infoCartoons = [
-        "productsList" => $datiPasta
+    $datiViewArray = [
+        "comicsList" => $comicsData
     ];
 
-    return view("products", $infoCartoons );
-})->name("pagina-prodotti");
+    return view("products", $datiViewArray );
+})->name("pagina-comics");
