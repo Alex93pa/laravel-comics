@@ -56,5 +56,21 @@
             <img src="\images\dc-logo-bg.png" alt="">
         </div>
     </div>
-
+    <div class="footer-down">
+        <div class="total-container">
+            <div class="signUpBtn">
+                <a href="#">sign-up now!</a>
+            </div>
+            <div class="">
+                <a href="#">follow us</a>
+                <ul class="">
+                    <li><a href="#"><img src="{{ asset('images/footer-facebook.png') }}" alt="social"></a></li>
+                    <li><a href="#"><img src="{{ asset('images/footer-twitter.png') }}" alt="social"></a></li>
+                    <li><a href="#"><img src="{{ asset('images/footer-youtube.png') }}" alt="social"></a></li>
+                    <li><a href="#"><img src="{{ asset('images/footer-pinterest.png') }}" alt="social"></a></li>
+                    <li><a href="#"><img src="{{ asset('images/footer-periscope.png') }}" alt="social"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
