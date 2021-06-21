@@ -16,10 +16,17 @@
 <body>
   @include('partials.header')
 
+<main>
+
+  <div class="container">
+    @yield('pre-content')
+  </div>
 
   <div class="container">
     @yield('content')
   </div>
+
+</main>
 
   @include('partials.footer')
 </body>

@@ -25,7 +25,7 @@
     <div class="total-container">
         <nav>
             <div class="logo">
-                <img src="../../resources/images/dc-logo.png" alt="">
+                <img src="/images/dc-logo.png" alt="">
             </div>
             <div class="nav-list">
                 <ul>
