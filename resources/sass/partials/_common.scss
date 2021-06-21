@@ -9,3 +9,22 @@
     width: 80%;
     margin: auto;
 }
+
+.my-flex{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    font-size: 12px;
+   
+    li{
+        margin: 5px;
+        a{
+            text-decoration: none;
+            &:hover{
+                color:$primary_color;
+            }
+        }
+    }
+}

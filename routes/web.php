@@ -13,20 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
-    return view('welcome');
-});
-
-
-Route::get('/comics', function () {
     $comicsData = config("comics");
 
     $datiViewArray = [
         "comicsList" => $comicsData
     ];
 
-    return view("products", $datiViewArray );
-})->name("pagina-comics");
+    return view("comics", $datiViewArray );
+})->name("comics");
 
 
 Route::get('/singleProduct/{index}', function ($index) {

@@ -1,10 +1,10 @@
 @extends('layout.default')
 
-@section('page_title')
+@section('page_title', 'comics')
 
 @section('content')
 
-<div class="hero"></div>
+
 
 <div class="total-container">
     <div class="current">
@@ -14,10 +14,10 @@
 
     <div class="card-container">
 
-    @foreach($comicsList as $comics)
+    @foreach($comicsList as $key => $comics)
 
     <div class="card">
-        <a href="{{ route('Prodotto-Selezionato', [ index => $key ])}}">
+        <a href="{{ route('Prodotto-Selezionato', [ 'index' => $key ] )}}">
             <img src="{{ $comics['thumb'] }}" alt="">
             <h4>{{ $comics['title'] }}</h4>
         </a>
@@ -26,9 +26,6 @@
     {{-- @include("partials.card", $product) --}}
 
     @endforeach
-    </div>
-
-    @endsection
-
-
 </div>
+
+@endsection

@@ -45,6 +45,6 @@
             <input type="text" name="" id="" placeholder="search">
         </nav>
 
-
+        <div class="hero"></div>
     </div>
 </header>

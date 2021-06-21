@@ -2,12 +2,9 @@
 
 @section('page_title', 'Dettagli Comics')
 
-@section('pre-content')
-
-@endsection
 
 
-@section('content')
+@section('all-content')
 
     <h1>Dettagli</h1>
     <ul>
