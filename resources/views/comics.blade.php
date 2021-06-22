@@ -5,9 +5,16 @@
 @section('content')
 
 
-<main>
-    <div class="total-container">
+<main class="main-home">
 
+        
+    <div class="hero">
+        <div class="current">
+        CURRENT SERIES
+        </div>
+    </div>
+    
+    <div class="total-container">
 
         <div class="card-container">
     

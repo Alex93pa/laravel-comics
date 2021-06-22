@@ -47,9 +47,5 @@
         </nav>
     </div>
 
-        <div class="hero">
-            <div class="current">
-            CURRENT SERIES
-        </div>
-    </div>
+    
 </header>

@@ -6,6 +6,8 @@
 
 @section('content')
 
+
+<main class="main-comics">
     <h1>Dettagli</h1>
     <ul>
         <li>{{ $sceltaComics["series"] }}</li>
@@ -14,5 +16,6 @@
         <li>{{!! $sceltaComics["description"] !!}}</li>
     
     </ul>
+</main>
 
 @endsection
