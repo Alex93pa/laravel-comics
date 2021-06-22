@@ -19,8 +19,8 @@
             $routeName = Request::route()->getName();
             return $routeName == $pageName ? 'active' : '';
         }
-
     @endphp
+
 
     <div class="total-container">
         <nav>
@@ -32,6 +32,7 @@
                     <li><a href="">CHARACTERS</a></li>
                     <li><a class="nav-link {{ setLinkClass('pagina-comics') }}" href="{{ route('comics') }}">COMICS</a></li>
                     <li><a href="">MOVIES</a></li>
+                    {{-- href="nav-link {{ Request::route()->getName() == movies ? 'active' : '' }}" --}}
                     <li><a href="">TV</a></li>
                     <li><a href="">GAMES</a></li>
                     <li><a href="">COLLECTIBLES</a></li>

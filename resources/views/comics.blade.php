@@ -15,7 +15,7 @@
             @foreach($comicsList as $key => $comics)
 
                 <div class="card">
-                    <a href="{{ route('Prodotto-Selezionato', [ 'index' => $key ] )}}">
+                    <a href="{{ route('selectedComics', [ 'index' => $key ] ) }}">
                         <img src="{{ $comics['thumb'] }}" alt="">
                         <h4>{{ $comics['title'] }}</h4>
                     </a>

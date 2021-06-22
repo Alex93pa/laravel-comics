@@ -187,6 +187,8 @@ footer .total-container .right {
 footer .footer-down {
   height: 100px;
   background-color: #161515;
+  position: relative;
+  top: -85px;
 }
 
 footer .footer-down .total-container .signUpBtn {

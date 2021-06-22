@@ -26,12 +26,12 @@ Route::get('/', function () {
 })->name("comics");
 
 
-Route::get('/singleProduct/{index}', function ($index) {
+Route::get('/selectedComics/{index}', function ($index) {
     $comicsData = config("comics");
 
     $sceltaComics = $comicsData[$index];
-    return view('singleProduct', ['product'=> $sceltaComics]);
-})->name("Prodotto-Selezionato");
+    return view('selectedComics', ['sceltaComics'=> $sceltaComics]);
+})->name("selectedComics");
 
 
 

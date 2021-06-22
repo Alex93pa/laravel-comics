@@ -20,7 +20,7 @@
 
   
     @yield('content')
-  
+    @yield('single_content')
 
 </main>
 
