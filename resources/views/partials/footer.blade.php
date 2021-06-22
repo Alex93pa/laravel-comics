@@ -62,8 +62,9 @@
                 <a href="#">sign-up now!</a>
             </div>
             <div class="">
-                <a href="#">follow us</a>
+                
                 <ul class="">
+                    <li><a href="#">follow us</a></li>
                     <li><a href="#"><img src="{{ asset('images/footer-facebook.png') }}" alt="social"></a></li>
                     <li><a href="#"><img src="{{ asset('images/footer-twitter.png') }}" alt="social"></a></li>
                     <li><a href="#"><img src="{{ asset('images/footer-youtube.png') }}" alt="social"></a></li>

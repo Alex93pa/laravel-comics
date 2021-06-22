@@ -6,6 +6,12 @@
 
 @section('content')
 
+    <div class="hero">
+    </div>
+    <div class="division"> 
+        <img class="copertina" src="{{ $sceltaComics['thumb'] }}" alt="">
+    </div>
+
 
 <main class="main-comics">
     <h1>Dettagli</h1>

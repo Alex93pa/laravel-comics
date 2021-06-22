@@ -1,3 +1,15 @@
+.division{
+    height: 60px;
+    color: $primary_color;
+    .copertina{
+        height: 200px;
+        width: 150px;
+        position: relative;
+        left: 10%;
+        bottom: 150px;
+    }
+}
+
 .main-comics{
     background-color: brown;
 }

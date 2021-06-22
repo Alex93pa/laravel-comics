@@ -154,6 +154,19 @@ nav .logo img {
   margin-left: 10px;
 }
 
+.division {
+  height: 60px;
+  color: #2d86fa;
+}
+
+.division .copertina {
+  height: 200px;
+  width: 150px;
+  position: relative;
+  left: 10%;
+  bottom: 150px;
+}
+
 .main-comics {
   background-color: brown;
 }
@@ -213,11 +226,23 @@ footer .footer-down {
 
 footer .footer-down .total-container .signUpBtn {
   flex-grow: 1;
+  position: relative;
+  top: 35px;
 }
 
 footer .footer-down .total-container .signUpBtn a {
   color: white;
   border: 2px solid #2d86fa;
   padding: 10px;
+  text-decoration: none;
+}
+
+footer .footer-down .total-container ul {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-down .total-container ul li {
+  display: inline-block;
 }
 
