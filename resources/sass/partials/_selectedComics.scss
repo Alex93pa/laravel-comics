@@ -10,6 +10,63 @@
     }
 }
 
-.main-comics{
-    background-color: brown;
+.total-container{
+    .info-top{
+        width: 70%;
+        display: inline-block;
+        .green-bar{
+            background-color: rgb(20, 195, 20);
+            height: 50px;
+            display: flex;
+            align-items: center;
+            margin: 30px 0;
+            .price{
+                flex-grow: 1;
+                margin-left: 15px;
+            }
+            .available{
+                color: greenyellow;
+                border-right: solid black;
+                padding: 15px;
+            }
+            .check{
+                padding: 15px;
+                color: white;
+            }
+        }
+    }
+    .adv{
+        width: 29%;
+        height: 260px;
+        display: inline-block;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.spc-info{
+    background-color: azure;
+    border-top: solid rgb(79, 147, 236);
+    display: flex;
+    .talent{
+        width: 50%;
+        .m-info{
+            display: flex;
+            margin: 25px 0;
+            p{
+                width: 50%;
+            }
+        }
+    }
+    .specs{
+        width: 50%;
+        .m-info{
+            display: flex;
+            margin: 25px 0;
+            p{
+                width: 50%;
+            }
+        }
+    }
 }

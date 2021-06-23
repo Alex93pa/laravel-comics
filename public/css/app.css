@@ -167,8 +167,75 @@ nav .logo img {
   bottom: 150px;
 }
 
-.main-comics {
-  background-color: brown;
+.total-container .info-top {
+  width: 70%;
+  display: inline-block;
+}
+
+.total-container .info-top .green-bar {
+  background-color: #14c314;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.total-container .info-top .green-bar .price {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.total-container .info-top .green-bar .available {
+  color: greenyellow;
+  border-right: solid black;
+  padding: 15px;
+}
+
+.total-container .info-top .green-bar .check {
+  padding: 15px;
+  color: white;
+}
+
+.total-container .adv {
+  width: 29%;
+  height: 260px;
+  display: inline-block;
+}
+
+.total-container .adv img {
+  width: 100%;
+}
+
+.spc-info {
+  background-color: azure;
+  border-top: solid #4f93ec;
+  display: flex;
+}
+
+.spc-info .talent {
+  width: 50%;
+}
+
+.spc-info .talent .m-info {
+  display: flex;
+  margin: 25px 0;
+}
+
+.spc-info .talent .m-info p {
+  width: 50%;
+}
+
+.spc-info .specs {
+  width: 50%;
+}
+
+.spc-info .specs .m-info {
+  display: flex;
+  margin: 25px 0;
+}
+
+.spc-info .specs .m-info p {
+  width: 50%;
 }
 
 footer {
@@ -182,6 +249,7 @@ footer .total-container {
 
 footer .total-container .footer-space {
   width: 50%;
+  overflow: hidden;
 }
 
 footer .total-container .footer-space .left-block {
